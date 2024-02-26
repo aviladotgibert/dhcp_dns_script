@@ -20,7 +20,7 @@ Copy/Modify the configuration files
 ```bash
 apt update
 apt install bind9 isc-dhcp-server git
-git clone https://github.com/shad0wuser/ddns_dhcp.git
+git clone https://github.com/aviladotgibert/dhcp_dns_script
 
 cp -r ddns_dhcp/dhcp /etc/
 cp -r ddns_dhcp/bind /etc/
