@@ -8,20 +8,20 @@
 
 // include "/etc/bind/ddns.key";
 
-zone "domain.local" {
+zone "haven.local" {
 	type master;
-	allow-update { 192.168.1.0/24; };
+	allow-update { 10.0.2.0/24; };
 //	allow-update { key DDNS_UPDATE; };
 	allow-query { any; };
 	notify no;
-	file "/etc/bind/db.domain.local";
+	file "/etc/bind/db.haven.local";
 };
 
-zone "1.168.192.in-addr.arpa" {
+zone "2.0.10.in-addr.arpa" {
 	type master;
-	allow-update { 192.168.1.0/24; };
+	allow-update { 10.0.2.0/24; };
 //	allow-update { key DDNS_UPDATE; };
 	allow-query { any; };
 	notify no;
-	file "/etc/bind/db.1.168.192.in-addr.arpa";
+	file "/etc/bind/db.2.0.10.in-addr.arpa"; 
 };
