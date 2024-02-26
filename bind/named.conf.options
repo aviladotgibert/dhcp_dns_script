@@ -20,9 +20,16 @@ options {
 	//========================================================================
 	dnssec-validation auto;
 
-	auth-nxdomain no;    # conform to RFC1035
+	auth-nxdomain no;    # conforme a la RFC1035
 	listen-on-v6 { any; };
-	listen-on { 10.0.2.4; };
 	version none;
+
+	#configuracion de IPv4
+	listen-on { any; };
+	allow-query { localhost; 10.0.2.0/24; };
+	forwarders {
+       		8.8.8.8;
+        	8.8.4.4;
+	};
 };
 
