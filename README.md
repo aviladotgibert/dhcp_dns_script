@@ -23,6 +23,7 @@ bash dhcpdns_script.sh
 ```
 
 
+
 ## Generating the key to secure DNS / DHCP exchanges
 
 Generate your secret key.
