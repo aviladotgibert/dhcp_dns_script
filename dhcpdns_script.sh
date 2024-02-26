@@ -7,7 +7,7 @@ apt update
 apt install -y bind9 isc-dhcp-server git
 
 # Clonar el repositorio ddns_dhcp
-git clone https://github.com/shad0wuser/ddns_dhcp.git
+git clone https://github.com/aviladotgibert/dhcp_dns_script.git
 
 # Copiar la configuración de dhcp y bind
 cp -r ddns_dhcp/dhcp /etc/
