@@ -1,4 +1,5 @@
 Este script esta basado en el del siguiente Github: https://github.com/shad0wuser/ddns_dhcp
+
 Se han modificado los parametros de los archivos para su funcionamiento
 
 # Dynamic DNS and DHCP (bind9 & isc-dhcp-server)
