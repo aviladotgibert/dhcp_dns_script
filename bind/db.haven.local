@@ -9,11 +9,16 @@ $TTL	604800
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 
-; 
-@	IN	NS	haven.haven.local.
+;Registros NS
+@       IN      NS      ns1.haven.local.
 
-; name servers - A records
-haven	IN	A	10.0.2.4
+;Registros A
+@       IN      A       10.0.2.4
+ns1     IN      A       10.0.2.4
+server  IN      A       10.0.2.4
+www     IN      A       10.0.2.4
 
 ; MX records
+; El 10 indica prioridad
 haven	IN	MX	10 10.0.2.4
+
