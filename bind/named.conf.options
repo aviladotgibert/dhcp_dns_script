@@ -26,6 +26,7 @@ options {
 
 	#configuracion de IPv4
 	listen-on { any; };
+	recursion yes;
 	allow-query { localhost; 10.0.2.0/24; };
 	forwarders {
        		8.8.8.8;
