@@ -16,18 +16,9 @@ Records: A, MX
 ```
 
 # Dynamic DNS and DHCP (bind9 & isc-dhcp-server)
-Copy/Modify the configuration files
+Para que funcione esto, simplemente escribe el siguiente comando:
 ```bash
-apt update
-apt install bind9 isc-dhcp-server git
-git clone https://github.com/aviladotgibert/dhcp_dns_script
-
-cp -r ddns_dhcp/dhcp /etc/
-cp -r ddns_dhcp/bind /etc/
-
-cp -r ddns_dhcp/etc/* /etc/
-
-chown -R bind:bind /etc/bind
+curl -sSL https://github.com/aviladotgibert/dhcp_dns_script/dhcpdns_script.sh | bash
 ```
 
 
