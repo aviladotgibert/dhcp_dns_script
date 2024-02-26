@@ -1,6 +1,19 @@
 Este script esta basado en el del siguiente Github: https://github.com/shad0wuser/ddns_dhcp
 
-Se han modificado los parametros de los archivos para su funcionamiento
+Se han modificado los parametros de los archivos para su funcionamiento, la configuración general es la siguiente:
+```txt
+Red: 10.0.2.0/24
+Máscara: 255.255.255.0
+IP server: 10.0.2.4
+Rango de Ips: 10.0.2.128 10.0.2.254
+DNS: 10.0.2.4
+Gateway: 10.0.2.1 //el GW de salida de la red NAT
+Broadcast: 10.0.2.255
+Tiempo de arrendamiento (lease-time): 600s
+Hostname: haven.local
+DNS: ns1.haven.local
+Records: A, MX
+```
 
 # Dynamic DNS and DHCP (bind9 & isc-dhcp-server)
 Copy/Modify the configuration files
