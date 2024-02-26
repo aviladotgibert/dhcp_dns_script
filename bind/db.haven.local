@@ -2,12 +2,18 @@
 ; BIND data file for local loopback interface
 ;
 $TTL	604800
-@	IN	SOA	srv1.domain.local. root.domain.local. (
+@	IN	SOA	ns1.haven.local. root.domain.local. (
 			      2		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
-;
-@	IN	NS	srv1.domain.local.
-srv1	IN	A	192.168.1.254
+
+; 
+@	IN	NS	haven.haven.local.
+
+; name servers - A records
+haven	IN	A	10.0.2.4
+
+; MX records
+haven	IN	MX	10 10.0.2.4
