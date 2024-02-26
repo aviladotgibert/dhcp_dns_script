@@ -2,12 +2,12 @@
 ; BIND reverse data file for domain.local
 ;
 $TTL	604800
-@	IN	SOA	srv1.domain.local. root.domain.local. (
+@	IN	SOA	ns1.haven.local. root.domain.local. (
 			      1		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
-@	IN	NS	srv1.domain.local.
-254	IN	PTR	srv1.domain.local.
+@	IN	NS	ns1.haven.local.
+4	IN	PTR	ns1.haven.local.
