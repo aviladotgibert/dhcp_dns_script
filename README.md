@@ -18,7 +18,7 @@ Records: A, MX
 # Dynamic DNS and DHCP (bind9 & isc-dhcp-server)
 Para que funcione esto, simplemente escribe el siguiente comando:
 ```bash
-curl -sSL https://github.com/aviladotgibert/dhcp_dns_script/dhcpdns_script.sh | bash
+curl -sSL https://raw.githubusercontent.com/aviladotgibert/dhcp_dns_script/main/dhcpdns_script.sh | bash
 ```
 
 
