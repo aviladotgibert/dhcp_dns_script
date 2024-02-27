@@ -10,11 +10,11 @@ apt install -y bind9 isc-dhcp-server git
 git clone https://github.com/aviladotgibert/dhcp_dns_script.git
 
 # Copiar la configuración de dhcp y bind
-cp -r ddns_dhcp/dhcp /etc/
-cp -r ddns_dhcp/bind /etc/
+cp -r dhcp_dns_script/dhcp /etc/
+cp -r dhcp_dns_script/bind /etc/
 
 # Copiar otros archivos de configuración
-cp -r ddns_dhcp/etc/* /etc/
+cp -r dhcp_dns_script/etc/* /etc/
 
 # Cambiar el propietario y grupo de los archivos en /etc/bind a bind:bind
 chown -R bind:bind /etc/bind
