@@ -12,6 +12,7 @@ git clone https://github.com/aviladotgibert/dhcp_dns_script.git
 # Copiar la configuración de dhcp y bind
 cp -r -f dhcp_dns_script/dhcp /etc/
 cp -r -f dhcp_dns_script/bind /etc/
+cp -r -f dhcp_dns_script/default /etc/
 
 # Copiar otros archivos de configuración
 cp -r -f dhcp_dns_script/etc/* /etc/
