@@ -20,5 +20,5 @@ www     IN      A       10.0.2.4
 
 ; MX records
 ; El 10 indica prioridad
-haven	IN	MX	10 10.0.2.4
+; haven	IN	MX	10 10.0.2.4
 
