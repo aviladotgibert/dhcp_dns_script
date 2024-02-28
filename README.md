@@ -12,7 +12,7 @@ Broadcast: 10.0.2.255
 Tiempo de arrendamiento (lease-time): 600s
 Hostname: haven.local
 DNS: ns1.haven.local
-Records: A, MX
+Records: A, NS, MX
 ```
 
 # Dynamic DNS and DHCP (bind9 & isc-dhcp-server)
