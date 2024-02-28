@@ -24,7 +24,8 @@ sudo bash dhcpdns_script.sh
 
 
 
-## (Esto no lo he probado aún, lo dejo comentado todo...) Generating the key to secure DNS / DHCP exchanges
+## (Esto no lo he probado aún, lo dejo comentado todo...)
+## Generating the key to secure DNS / DHCP exchanges
 
 Generate your secret key.
 ```bash
